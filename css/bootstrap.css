@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box ;
+}
+body{
+    position: relative;
+}
+:root{
+    --color1:#f4511e;
+
+} 
+.mybgcolor{
+    background-color: var(--color1)!important;
+
+}
+/* start nav*/
+.mynav{
+    z-index: 999999 !important;
+    /*padding-left: 4rem !important;
+    padding-right: 4rem !important;*/
+    padding-bottom: 0rem !important;
+    padding-top: 0rem !important;
+}
+.nav-link {
+    color: rgba(255,255,255,1) !important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    line-height: 2.5;   
+}
+.linksparent{
+    padding-right:0rem !important ;
+    padding-left: 0rem !important ;
+}
+.navbar-nav .nav-link{
+    padding-left: 1.5rem !important ;
+
+}
+
+ 
+.nav-link.active{
+    background-color: white !important;
+    color: var(--color1) !important;
+
+}
+/* start div1*/
+.div1{
+    font-family:Montserrat, sans-serif;
+    
+}
+.fas{
+    color: var(--color1)!important;
+
+}
+.h2font{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+.pfont{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    font-style: italic;
+}
+.carousel-control-next ,.carousel-control-prev {
+    opacity: 1!important;
+}
+.carousel-control-next-icon ,.carousel-control-prev-icon{
+    background-image: none;
+    color: var(--color1) !important;
+    filter: none !important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   /* background-color: var(--color1) !important;*/
+   background-color: #fff !important;
+   border: 1px solid var(--color1) ;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: var(--color1) !important;
+    border: 1px solid var(--color1) ;
+
+}
+.card-header {
+    background-color: var(--color1) !important;
+    border-bottom: var(--color1) !important ;
+    color: white !important;
+    font-weight: 500;
+    font-size:36px ;
+}
+.mybtn{
+    background-color: var(--color1) !important;
+    color: white;
+    border: 1px solid var(--color1) !important;
+} 
+.myborder{
+    border: 1px solid var(--color1) !important;
+}
+
+@media screen and (max-width : 577px) {
+    .formdiv{
+        width: 90% !important;
+
+    }
+    
+}
